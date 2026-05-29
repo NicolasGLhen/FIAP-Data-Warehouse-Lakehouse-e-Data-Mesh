@@ -7,7 +7,10 @@
 >
 > Você tem CSVs no S3, Athena à disposição, e exatamente **um dia** para entregar uma tabela Iceberg que aceite tanto a carga inicial quanto os deltas de CDC sem reescrever o mundo a cada batch. **Esse é o trabalho final.**
 
-Este é o **trabalho final avaliativo** da disciplina. Você vai construir, sozinho, um pipeline lakehouse ponta a ponta no Athena: provisiona o S3, gera dados sintéticos, cataloga via Glue Crawler, materializa em Iceberg, evolui o esquema, aplica delta com `MERGE INTO`, otimiza arquivos e entrega a query executiva. No final, você defende uma decisão técnica de evolução em um documento curto (estilo ADR).
+Este é o **trabalho final avaliativo** da disciplina. **É um trabalho em grupo** (composição definida pelo professor da turma). Vocês vão construir, juntos, um pipeline lakehouse ponta a ponta no Athena: provisionam o S3, geram dados sintéticos, catalogam via Glue Crawler, materializam em Iceberg, evoluem o esquema, aplicam delta com `MERGE INTO`, otimizam arquivos e entregam a query executiva. No final, defendem uma decisão técnica de evolução em um documento curto (estilo ADR).
+
+> [!IMPORTANT]
+> **Trabalho em grupo — não individual.** Combinem entre si quem roda os scripts no Codespaces de quem (a infra é provisionada uma vez, na conta AWS Academy de **um integrante** do grupo). A entrega é única para o grupo: um zip só, subido no portal por um dos membros.
 
 > [!WARNING]
 > **Pré-requisitos obrigatórios antes de começar:**
